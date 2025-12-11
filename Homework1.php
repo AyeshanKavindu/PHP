@@ -13,7 +13,7 @@ $mostRecent = [];
 foreach ($movies as $movie) {
     if ($movie["year"] > $recentMovieYear) {
         $recentMovieYear = $movie["year"];
-        $mostRecent = $movie; // save entire movie
+        $mostRecent = $movie; 
     }
 }
 ?>
